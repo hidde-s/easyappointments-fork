@@ -230,7 +230,7 @@
                             </label>
                         </div>
                     </div>
-                    
+
                     <?php slot('after_secondary_fields'); ?>
                 </div>
             </div>
@@ -242,9 +242,6 @@
 
 <?php section('scripts'); ?>
 
-<script src="<?= asset_url('assets/js/utils/message.js') ?>"></script>
-<script src="<?= asset_url('assets/js/utils/validation.js') ?>"></script>
-<script src="<?= asset_url('assets/js/utils/url.js') ?>"></script>
 <script src="<?= asset_url('assets/js/http/account_http_client.js') ?>"></script>
 <script src="<?= asset_url('assets/js/http/admins_http_client.js') ?>"></script>
 <script src="<?= asset_url('assets/js/pages/admins.js') ?>"></script>

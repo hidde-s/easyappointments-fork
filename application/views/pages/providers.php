@@ -302,7 +302,7 @@
                     </table>
 
                     <?php slot('after_working_plan'); ?>
-                   
+
                     <br>
 
                     <h4 class="text-black-50 mb-3 fw-light">
@@ -335,7 +335,7 @@
                     </table>
 
                     <?php slot('after_breaks'); ?>
-                    
+
                     <br>
 
                     <h4 class="text-black-50 mb-3 fw-light">
@@ -368,7 +368,7 @@
                     </table>
 
                     <?php component('working_plan_exceptions_modal'); ?>
-                
+
                     <?php slot('after_working_plan_exceptions'); ?>
                 </div>
             </div>
@@ -381,12 +381,7 @@
 <?php section('scripts'); ?>
 
 <script src="<?= asset_url('assets/vendor/jquery-jeditable/jquery.jeditable.min.js') ?>"></script>
-<script src="<?= asset_url('assets/js/utils/date.js') ?>"></script>
-<script src="<?= asset_url('assets/js/utils/message.js') ?>"></script>
-<script src="<?= asset_url('assets/js/utils/string.js') ?>"></script>
 <script src="<?= asset_url('assets/js/utils/ui.js') ?>"></script>
-<script src="<?= asset_url('assets/js/utils/url.js') ?>"></script>
-<script src="<?= asset_url('assets/js/utils/validation.js') ?>"></script>
 <script src="<?= asset_url('assets/js/utils/working_plan.js') ?>"></script>
 <script src="<?= asset_url('assets/js/http/account_http_client.js') ?>"></script>
 <script src="<?= asset_url('assets/js/http/providers_http_client.js') ?>"></script>
